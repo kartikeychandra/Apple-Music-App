@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+ul{
+    display: flex;;
+    color: black;
+    list-style-type: none;
+    background-color: white;
+    height: 65px;
+    align-items: center;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+nav ul li{
+    padding: 0px 12px;
+    cursor: pointer;
+}
+.container{
+    background-color: white;
+    min-height:70vh;
+    margin: 5vh 25vh ;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    border-radius: 3%;
+    padding: 15px 15px;
+    background-image: url('justin bieber background pic.jfif');
+    background-size: 220vh;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+i{
+    margin: 18px 0;
+    cursor: pointer;
+}
+.songItem img{
+    height: 70px;
+    border-radius: 100%;
+    padding: 0 8px;
+}
+.songItem{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.songItem i{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.songPlaying{
+   
+    position: absolute;
+    left: 0;
+    margin: 0 20px;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    
+}
+.songPlaying img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+#songName{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
